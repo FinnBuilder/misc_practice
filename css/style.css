@@ -14,6 +14,50 @@
 }
 /*~~Start Here~~*/
 
+/* Sec. 08 */
+.header8-main {
+    background-color: #24252A;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navBar8-links {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.header8-main a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Sec. 07 */
+
+.flexbox7-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #abcdef;
+    justify-content: space-evenly;
+    height: 500px;
+    align-items: center;
+}
+
+
+.flexbox7-container > * {
+    background-color: #012345;
+    color: #fff;
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px;
+    line-height: 75px;
+    text-align: center;
+
+}
+
 /*Sec. 06 */
 .sec06 {
     font-family: Poppins, sans-serif;
