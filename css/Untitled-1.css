@@ -1,0 +1,24 @@
+
+
+
+
+.search-input {
+  background: #ff6e68;
+  border: 0;
+  width: 100%;
+  outline: 0px;
+  background: transparent;
+  border-bottom: 1px solid #ffeead;
+  color: #ffeead;
+}
+::placeholder{
+  color: #ffeead;
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+.container > li {
+  background-color: #96ceb4;
+}
